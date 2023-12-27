@@ -1,6 +1,9 @@
+import Layout from "@/components/Layout";
 
 export default function Settings() {
   return (
-    <div>Settings</div>
+    <Layout title="teste" subtitle="test2">
+      <h1>Content</h1>
+    </Layout>
   )
 }
